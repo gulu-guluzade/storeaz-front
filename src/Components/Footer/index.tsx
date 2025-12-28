@@ -25,25 +25,25 @@ const Footer = () => {
             </Link>
           </div>
           {/* Contacts */}
-          <address className="text-white flex items-center justify-center gap-x-5">
-            <Link
-              href="tel:+994504578802"
-              className="flex items-center gap-x-2"
-            >
-              <Phone />
-              <span className="font-medium">(+994 50) 457-88-02</span>
-            </Link>
+          <address className="text-white flex flex-col items-center justify-center gap-5 md:flex-row">
             <Link
               href="mailto:info@store.az"
-              className="flex items-center gap-x-2"
+              className="flex items-center gap-x-2 md:order-2"
             >
               <Mail />
               <span className="font-medium">info@store.az</span>
             </Link>
             <Link
+              href="tel:+994504578802"
+              className="flex items-center gap-x-2 md:order-1"
+            >
+              <Phone />
+              <span className="font-medium">(+994 50) 457-88-02</span>
+            </Link>
+            <Link
               href="https://maps.app.goo.gl/ENhsGg1RabthuhCGA"
               target="_blank"
-              className="flex items-center gap-x-2"
+              className="flex items-center gap-x-2 md:order-3"
             >
               <MapPin />
               <span className="font-medium">
