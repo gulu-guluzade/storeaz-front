@@ -1,7 +1,11 @@
-const Monitors = () => {
-  return (
-    <div>Monitors</div>
-  )
-}
+import Monitors from "@/Components/Monitors";
 
-export default Monitors
+const monitors = () => {
+  return (
+    <main>
+      <Monitors />
+    </main>
+  );
+};
+
+export default monitors;

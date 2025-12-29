@@ -1,7 +1,11 @@
-const PCAccessories = () => {
-  return (
-    <div>PCAccessories</div>
-  )
-}
+import PCAccessories from "@/Components/PCAccessories";
 
-export default PCAccessories
+const pcAccessories = () => {
+  return (
+    <main>
+      <PCAccessories />
+    </main>
+  );
+};
+
+export default pcAccessories;

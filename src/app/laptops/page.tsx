@@ -1,7 +1,11 @@
-const Laptops = () => {
-  return (
-    <div>Laptops</div>
-  )
-}
+import Laptops from "@/Components/Laptops";
 
-export default Laptops
+const laptops = () => {
+  return (
+    <main>
+      <Laptops />
+    </main>
+  );
+};
+
+export default laptops;

@@ -1,7 +1,11 @@
-const PC = () => {
-  return (
-    <div>PC</div>
-  )
-}
+import PC from "@/Components/PC";
 
-export default PC
+const pc = () => {
+  return (
+    <main>
+      <PC />
+    </main>
+  );
+};
+
+export default pc;
