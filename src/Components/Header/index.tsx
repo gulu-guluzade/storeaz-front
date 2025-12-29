@@ -3,9 +3,10 @@
 import Link from "next/link";
 import links from "@/Mock/links";
 import Container from "../Container";
-import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
+import { ILinks } from "@/Types/links";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const path = usePathname();
@@ -51,7 +52,7 @@ const Header = () => {
             ${displayValue} flex-col justify-center items-center gap-y-5 
             md:flex md:bg-transparent md:static md:flex-row md:gap-x-8`}
           >
-            {links.map(({ id, title, to }) => {
+            {links.map(({ id, title, to }: ILinks) => {
               return (
                 <Link
                   className={`uppercase font-bold text-lg md:text-sm 
