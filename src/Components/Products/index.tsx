@@ -1,12 +1,9 @@
 import Link from "next/link";
 import Container from "../Container";
 import { IProducts } from "@/Types/products";
+import { ProductsProps } from "@/Types/products-props";
 
-interface ProductsProps {
-  products: IProducts[];
-}
-
-const Products = ({ products }: ProductsProps) => {
+const Products = ({ products, pathName }: ProductsProps) => {
   return (
     <section className="pt-5 pb-10">
       <Container>
@@ -22,7 +19,7 @@ const Products = ({ products }: ProductsProps) => {
                   overflow-hidden transition-all duration-200
                   md:hover:shadow-[0_0_10px_rgba(0,0,0,0.15)]
                   md:hover:scale-105">
-                  <Link href={id} className="absolute inset-0"></Link>
+                  <Link href={pathName + id} className="absolute inset-0"></Link>
                   
                   {/* Image */}
                   <div>

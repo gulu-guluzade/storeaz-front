@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+* {
+  user-select: none;
+}
+
 @theme {
   --breakpoint-xs: 480px;
+}
+
+:root {
+  --swiper-navigation-size: 35px !important;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 0px !important;
+  --swiper-navigation-color: #45b44d !important;
 }
