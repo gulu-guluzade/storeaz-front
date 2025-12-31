@@ -43,6 +43,7 @@ const Footer = () => {
             <Link
               href="https://maps.app.goo.gl/ENhsGg1RabthuhCGA"
               target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-x-2 md:order-3"
             >
               <MapPin />
@@ -56,6 +57,7 @@ const Footer = () => {
             <Link
               href="#"
               target="_blank"
+              rel="noopener noreferrer"
               className="block p-2.5 border rounded-full border-gray-200 transition-colors duration-200 hover:bg-black hover:border-black"
             >
               <Facebook size={20} />
@@ -63,6 +65,7 @@ const Footer = () => {
             <Link
               href="#"
               target="_blank"
+              rel="noopener noreferrer"
               className="block p-2.5 border rounded-full border-gray-200 transition-colors duration-200 hover:bg-black hover:border-black"
             >
               <Instagram size={20} />
@@ -70,6 +73,7 @@ const Footer = () => {
             <Link
               href="#"
               target="_blank"
+              rel="noopener noreferrer"
               className="block p-2.5 border rounded-full border-gray-200 transition-colors duration-200 hover:bg-black hover:border-black"
             >
               <Twitter size={20} />
@@ -82,6 +86,7 @@ const Footer = () => {
               <Link
                 href="https://runwaylanderspot.com/?d=webline.global&pkAId=2143526812"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="font-bold"
               >
                 Webline

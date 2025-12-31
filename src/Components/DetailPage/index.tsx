@@ -44,7 +44,7 @@ const DetailPage = ({ products, pathName }: ProductsProps) => {
                     >
                       {imagesSrc.map((imageSrc: string) => {
                         return (
-                          <SwiperSlide>
+                          <SwiperSlide key={imageSrc}>
                             <div className="px-8 pb-7 flex items-center justify-center">
                               <img className="block w-full object-cover" src={imageSrc} alt={title} />
                             </div>
