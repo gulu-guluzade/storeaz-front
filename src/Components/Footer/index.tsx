@@ -24,6 +24,12 @@ const Footer = () => {
               />
             </Link>
           </div>
+          {/* About Us | Delivery | Contact */}
+          <div className="text-white font-medium flex items-center justify-center gap-x-10">
+            <Link className="hover:text-[#B8D4F6]" href="/about">Haqqımızda</Link> 
+            <Link className="hover:text-[#B8D4F6]" href="/delivery">Çatdırılma</Link> 
+            <Link className="hover:text-[#B8D4F6]" href="/contact">Əlaqə</Link> 
+          </div>
           {/* Contacts */}
           <address className="text-white flex flex-col items-center justify-center gap-5 md:flex-row">
             <Link

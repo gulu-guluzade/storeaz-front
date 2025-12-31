@@ -1,7 +1,16 @@
 @import "tailwindcss";
 
-body { user-select: text; }
-button, img { user-select: none; }
+* {
+  outline: none;
+}
+
+body {
+  user-select: text;
+}
+button,
+img {
+  user-select: none;
+}
 
 @theme {
   --breakpoint-xs: 480px;
@@ -12,4 +21,10 @@ button, img { user-select: none; }
   --swiper-navigation-top-offset: 50%;
   --swiper-navigation-sides-offset: 0px !important;
   --swiper-navigation-color: #45b44d !important;
+}
+
+.star::after {
+  content: "*";
+  display: block;
+  color: red;
 }
