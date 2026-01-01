@@ -2,7 +2,7 @@ import Link from "next/link";
 import ContactInfo from "@/Components/ContactInfo";
 import Container from "@/Components/Container";
 
-const About = () => {
+const AboutPage = () => {
   return (
     <main>
       {/* Head */}
@@ -39,4 +39,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPage;

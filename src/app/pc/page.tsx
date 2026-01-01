@@ -1,6 +1,6 @@
 import PC from "@/Components/PC";
 
-const pc = () => {
+const PCPage = () => {
   return (
     <main>
       <PC />
@@ -8,4 +8,4 @@ const pc = () => {
   );
 };
 
-export default pc;
+export default PCPage;

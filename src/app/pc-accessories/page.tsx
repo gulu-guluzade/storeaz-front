@@ -1,6 +1,6 @@
 import PCAccessories from "@/Components/PCAccessories";
 
-const pcAccessories = () => {
+const PCAccessoriesPage = () => {
   return (
     <main>
       <PCAccessories />
@@ -8,4 +8,4 @@ const pcAccessories = () => {
   );
 };
 
-export default pcAccessories;
+export default PCAccessoriesPage;

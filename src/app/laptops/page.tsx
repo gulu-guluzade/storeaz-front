@@ -1,6 +1,6 @@
 import Laptops from "@/Components/Laptops";
 
-const laptops = () => {
+const LaptopsPage = () => {
   return (
     <main>
       <Laptops />
@@ -8,4 +8,4 @@ const laptops = () => {
   );
 };
 
-export default laptops;
+export default LaptopsPage;

@@ -3,7 +3,7 @@ import Container from "@/Components/Container";
 import Form from "@/Components/Form";
 import Map from "@/Components/Map";
 
-const delivery = () => {
+const ContactPage = () => {
   return (
     <main>
       <section>
@@ -32,4 +32,4 @@ const delivery = () => {
   );
 };
 
-export default delivery;
+export default ContactPage;

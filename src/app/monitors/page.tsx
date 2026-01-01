@@ -1,6 +1,6 @@
 import Monitors from "@/Components/Monitors";
 
-const monitors = () => {
+const MonitorsPage = () => {
   return (
     <main>
       <Monitors />
@@ -8,4 +8,4 @@ const monitors = () => {
   );
 };
 
-export default monitors;
+export default MonitorsPage;

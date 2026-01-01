@@ -2,12 +2,12 @@
 
 import pcAccessories from "@/Mock/pc-accessories";
 import { useParams } from "next/navigation";
-import DetailPage from "@/Components/DetailPage";
+import Detail from "@/Components/Detail";
 
-const detailPage = () => {
+const DetailPage = () => {
   const { id } = useParams();
 
-  return <DetailPage products={pcAccessories} pathName={String(id)} />;
+  return <Detail products={pcAccessories} pathName={String(id)} />;
 };
 
-export default detailPage;
+export default DetailPage;

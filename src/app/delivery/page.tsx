@@ -1,8 +1,7 @@
 import Link from "next/link";
-import ContactInfo from "@/Components/ContactInfo";
 import Container from "@/Components/Container";
 
-const delivery = () => {
+const DeliveryPage = () => {
   return (
     <main>
       {/* Head */}
@@ -69,4 +68,4 @@ const delivery = () => {
   );
 };
 
-export default delivery;
+export default DeliveryPage;
